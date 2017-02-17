@@ -9,8 +9,8 @@
 
   vi pg_backup.conf
   ```
-2. 在 /var/lib/pgsql/data/pg_hba.conf 里面加一行 **host    all         postgres    127.0.0.1/32          trust**.
-  ```
+2. 在 /var/lib/pgsql/data/pg_hba.conf 里面加一行 **"host    all         postgres    127.0.0.1/32          trust"**.
+  ```
   # TYPE  DATABASE    USER        CIDR-ADDRESS          METHOD
 
   # "local" is for Unix domain socket connections only
